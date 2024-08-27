@@ -14,6 +14,7 @@ export default defineConfig({
           route("step-new-password", "pages/login/step-new-password/step-new-password.tsx")
           route("step-password", "pages/login/step-password/step-password.tsx")
         });
+        route("logout", "pages/logout.ts", { index: true });
         route("admin", "pages/admin/admin.tsx")
         route("admin/add-games", "pages/admin/add-games/add-games.tsx")
         route("admin/login", "pages/admin/login/admin-login.tsx")
